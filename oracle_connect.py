@@ -1,6 +1,6 @@
 import oracledb
 
-user, password, host, port, service_name = "tph", "yplgcc9y", "10.0.7.5", 1521, "kgcapp"
+user, password, host, port, service_name = "test", "test", "1.1.1.1", 1521, "test"
 dsn = f"{host}:{port}/{service_name}"
 
 try:
